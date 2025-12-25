@@ -7,6 +7,7 @@ const app = express();
 
 app.use(cors({ origin:true, credentials:true }));
 app.use(express.json());
+app.use('/admin', express.static('public/admin'));
 const adminRoutes = require('./routes/admin');
 app.use('/admin', adminRoutes);
 app.use(session({
