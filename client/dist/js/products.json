@@ -1,0 +1,37 @@
+[
+  {
+    "id": "usb100",
+    "name": "USB-C 100 W Cable 2 m",
+    "price": 12.90,
+    "img": "/uploads/usb100.jpg",
+    "desc": "100 W Power Delivery, 4K@60 Hz, braided"
+  },
+  {
+    "id": "led5050",
+    "name": "RGB LED Strip 5 m",
+    "price": 24.90,
+    "img": "/uploads/led5050.jpg",
+    "desc": "5050 SMD, 16 Mio. colors, Wi-Fi & Alexa"
+  },
+  {
+    "id": "hub7",
+    "name": "7-Port USB 3.2 Hub",
+    "price": 34.90,
+    "img": "/uploads/hub7.jpg",
+    "desc": "7 × USB-A 3.2 Gen 2, 10 Gbit/s, powered"
+  },
+  {
+    "id": "ssd1t",
+    "name": "Portable SSD 1 TB",
+    "price": 89.90,
+    "img": "/uploads/ssd1t.jpg",
+    "desc": "USB-C 3.2, 1050 MB/s, IP65, 52 g"
+  },
+  {
+    "id": "dock4k",
+    "name": "4K HDMI Docking Station",
+    "price": 129.90,
+    "img": "/uploads/dock4k.jpg",
+    "desc": "2 × HDMI 4K@60 Hz, 100 W PD, SD, LAN"
+  }
+]
