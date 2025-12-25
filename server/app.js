@@ -7,6 +7,8 @@ const app = express();
 
 app.use(cors({ origin:true, credentials:true }));
 app.use(express.json());
+const adminRoutes = require('./routes/admin');
+app.use('/admin', adminRoutes);
 app.use(session({
   store:new SQLiteStore({ db:'sessions.db' }),
   secret:process.env.SESSION_SECRET||'secret',
