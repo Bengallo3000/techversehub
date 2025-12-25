@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Admin – TechVerseHub</title>
+<link rel="stylesheet" href="/css/theme.css"><style>body{display:flex;justify-content:center;align-items:center;height:100vh}</style></head>
+<body>
+  <form method="post" action="/admin/login" class="card">
+    <h2>Admin Login</h2>
+    <input name="pwd" type="password" placeholder="Password" required class="form-control">
+    <button class="btn">Login</button>
+    <p style="color:red;">{{err}}</p>
+  </form>
+</body></html>
